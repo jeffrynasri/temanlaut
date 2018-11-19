@@ -27,10 +27,10 @@ return [
         //database
         'database' => [
             'driver'    => 'mysql',
-            'host'      => 'localhost',
-            'database'  => 'temanlaut',
-            'username'  => 'root',
-            'password'  => '',
+            'host'      => 'us-cdbr-iron-east-01.cleardb.net',
+            'database'  => 'heroku_a012528722695d5',
+            'username'  => 'bdad8bd9e34519',
+            'password'  => '9fb138af',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
