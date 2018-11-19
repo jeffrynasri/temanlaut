@@ -26,7 +26,7 @@ return [
  
         //database
         'database' => [
-            'driver'    => 'mysqli',
+            'driver'    => 'mysql',
             'host'      => 'us-cdbr-iron-east-01.cleardb.net',
             'database'  => 'heroku_a012528722695d5',
             'username'  => 'bdad8bd9e34519',
