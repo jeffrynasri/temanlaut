@@ -32,7 +32,7 @@ return [
  
         //database
         'database' => [
-            'driver'    => 'mysql',
+            'driver'    => 'mysqli',
             'host'      => $cleardb_server,
             'database'  => $cleardb_db,
             'username'  => $cleardb_username,
