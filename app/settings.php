@@ -1,10 +1,4 @@
 <?php
-$cleardb_url      = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$cleardb_server   = $cleardb_url["host"];
-$cleardb_username = $cleardb_url["user"];
-$cleardb_password = $cleardb_url["pass"];
-$cleardb_db       = substr($cleardb_url["path"],1);
-
 return [
     'settings' => [
         // Slim Settings
@@ -33,10 +27,10 @@ return [
         //database
         'database' => [
             'driver'    => 'mysqli',
-            'host'      => $cleardb_server,
-            'database'  => $cleardb_db,
-            'username'  => $cleardb_username,
-            'password'  => $cleardb_password,
+            'host'      => 'us-cdbr-iron-east-01.cleardb.net',
+            'database'  => 'heroku_a012528722695d5',
+            'username'  => 'bdad8bd9e34519',
+            'password'  => '9fb138af',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
